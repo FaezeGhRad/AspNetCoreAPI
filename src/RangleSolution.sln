@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rangle.Abstractions", "Rangle.Abstractions\Rangle.Abstractions.csproj", "{BDD9BAD4-7407-4F66-AB01-0AC2DCA41E76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rangle.Implementations", "Rangle.Implementations\Rangle.Implementations.csproj", "{66F2A179-515C-4D6F-9D9A-E865D7FE9526}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rangle.API", "Rangle.API\Rangle.API.csproj", "{FE7E9A4A-8B77-411D-BB86-77B7EDE1D5DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2762530-4699-40B9-8AF9-7C37185CD1DB}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\Directory.Build.props = ..\Directory.Build.props
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rangle.Tests", "Rangle.Tests\Rangle.Tests.csproj", "{06EFA1E3-F759-4ABB-B969-C5513B896FC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD9BAD4-7407-4F66-AB01-0AC2DCA41E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD9BAD4-7407-4F66-AB01-0AC2DCA41E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD9BAD4-7407-4F66-AB01-0AC2DCA41E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD9BAD4-7407-4F66-AB01-0AC2DCA41E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F2A179-515C-4D6F-9D9A-E865D7FE9526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F2A179-515C-4D6F-9D9A-E865D7FE9526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F2A179-515C-4D6F-9D9A-E865D7FE9526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F2A179-515C-4D6F-9D9A-E865D7FE9526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE7E9A4A-8B77-411D-BB86-77B7EDE1D5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7E9A4A-8B77-411D-BB86-77B7EDE1D5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7E9A4A-8B77-411D-BB86-77B7EDE1D5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7E9A4A-8B77-411D-BB86-77B7EDE1D5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EFA1E3-F759-4ABB-B969-C5513B896FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EFA1E3-F759-4ABB-B969-C5513B896FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EFA1E3-F759-4ABB-B969-C5513B896FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EFA1E3-F759-4ABB-B969-C5513B896FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D341337-E156-41C6-AAED-CFDD614BF122}
+	EndGlobalSection
+EndGlobal
