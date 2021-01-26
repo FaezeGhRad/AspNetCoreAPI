@@ -12,11 +12,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2762530-4699-40B9-8AF9-7C37185CD1DB}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
+		..\Developer Challenge - REST API.pdf = ..\Developer Challenge - REST API.pdf
 		..\Directory.Build.props = ..\Directory.Build.props
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rangle.Tests", "Rangle.Tests\Rangle.Tests.csproj", "{06EFA1E3-F759-4ABB-B969-C5513B896FC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rangle.Tests", "Rangle.Tests\Rangle.Tests.csproj", "{06EFA1E3-F759-4ABB-B969-C5513B896FC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
